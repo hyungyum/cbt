@@ -85,7 +85,7 @@ with col2:
 with col3:
     st.markdown(
         f"""
-        <div style="background-color: #E0E0FF; padding: 10px; border-radius: 5px;">
+        <div style="background-color: #F0E2FB; padding: 10px; border-radius: 5px;">
             <h3>인지왜곡 수정 전략</h3>
             <p>{results[2]}</p>
         </div>
