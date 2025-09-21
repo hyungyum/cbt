@@ -1,8 +1,7 @@
 import streamlit as st
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage, SystemMessage
-# OpenAI API 키 설정
-openai_api_key = "sk-_akPYjAq3juVDwUL9O9ywIvMFAgtab78kFzt_lksfiT3BlbkFJPpokHfwKLkvTigwCfIGJLsz3nya23MvF0UDYIIj3MA"
+
 
 # 파인튜닝된 모델 ID 목록
 model_ids = ["ft:gpt-4o-mini-2024-07-18:personal::9xw1kJZP", "ft:gpt-4o-mini-2024-07-18:personal::9xxmpCPk", "ft:gpt-4o-mini-2024-07-18:personal::9yfoKqLx"]
@@ -92,3 +91,4 @@ with col3:
         """,
         unsafe_allow_html=True
     )
+
